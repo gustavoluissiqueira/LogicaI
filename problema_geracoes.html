@@ -1,0 +1,22 @@
+<meta charset="UTF-8">
+<script>
+    function pulaLinha(){
+        document.write("<br>");
+    }
+    function mostra(anos){
+        
+        document.write(`Se passaram ${anos} gerações.`);
+        pulaLinha();
+
+    }
+
+    var inicioBrasil = 1500;
+    var brasilHoje = 2019;
+    var mediaIdade = 28;
+    var numeroGeracoes = (brasilHoje-inicioBrasil)/mediaIdade;
+
+    mostra(numeroGeracoes);
+
+
+
+</script>
